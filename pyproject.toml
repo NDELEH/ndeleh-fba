@@ -1,0 +1,24 @@
+[project]
+name = "ndeleh-fba"
+version = "0.1.0"
+description = "The Ndeleh Fish Bone Algorithm (N-FBA): a dynamic spine-and-rib associative intelligence model."
+authors = [
+    { name = "Ndeleh", email = "none@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/yourusername/ndeleh-fba"
+Documentation = "https://github.com/yourusername/ndeleh-fba"
+Source = "https://github.com/yourusername/ndeleh-fba"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+nfb = "ndeleh_fba.cli.fba_cli:fba_cli"
