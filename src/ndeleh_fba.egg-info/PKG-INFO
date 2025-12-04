@@ -1,14 +1,20 @@
 Metadata-Version: 2.4
 Name: ndeleh-fba
-Version: 0.1.0
-Summary: The Ndeleh Fish Bone Algorithm (N-FBA): a dynamic spine-and-rib associative intelligence model.
-Author-email: Ndeleh <none@example.com>
-License: MIT
-Project-URL: Homepage, https://github.com/yourusername/ndeleh-fba
-Project-URL: Documentation, https://github.com/yourusername/ndeleh-fba
-Project-URL: Source, https://github.com/yourusername/ndeleh-fba
-Requires-Python: >=3.8
+Version: 1.0.1
+Summary: N-FBA V2: A modern fishbone root-cause reasoning engine for industrial diagnostics.
+Author: Ndeleh
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/NDELEH/ndeleh-fba
+Project-URL: Repository, https://github.com/NDELEH/ndeleh-fba
+Project-URL: Issues, https://github.com/NDELEH/ndeleh-fba/issues
+Project-URL: Documentation, https://github.com/NDELEH/ndeleh-fba
+Keywords: fishbone,root-cause,diagnostics,industrial,quality,graphs,manufacturing,AI,N-FBA
+Requires-Python: >=3.9
 Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi>=0.111
+Requires-Dist: uvicorn>=0.29
+Dynamic: license-file
 
 # 🐟 Ndeleh Fish Bone Algorithm (N-FBA)
 

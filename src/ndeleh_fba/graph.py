@@ -111,3 +111,16 @@ class Graph:
 
     def _edge_count(self) -> int:
         return sum(len(neigh) for neigh in self.edges.values())
+# =============================================================================
+# FishboneGraph — thin wrapper for compatibility with industrial logic
+# =============================================================================
+
+class FishboneGraph(Graph):
+    """
+    A thin subclass of Graph used by industrial logic.
+
+    This class exists purely so that code importing `FishboneGraph` works,
+    while still using the core Graph functionality.
+    """
+    def __init__(self):
+        super().__init__()

@@ -1,2 +1,0 @@
-[console_scripts]
-nfb = ndeleh_fba.cli.fba_cli:fba_cli
